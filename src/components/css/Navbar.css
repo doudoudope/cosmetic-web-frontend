@@ -1,0 +1,74 @@
+.box{
+    padding: 10px 20px;
+    display: flex;
+    
+    flex-wrap: nowrap;
+    -moz-box-align: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    width: 30wh;
+    height: 50px;
+    vertical-align: middle; 
+    color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+.nav_tabs{
+    display: flex;
+    
+}
+
+.nav-link{
+    height: 52px;
+    cursor: "pointer";
+    background-color: transparent;
+    font-weight: bold;
+    font-size:large;
+}
+
+.nav-tabs {
+    border-bottom: 0;
+}
+
+.cart-badge,
+.cart-badge:hover {
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 12px;
+    font-style: italic;
+    background: #000;
+    color: #fff;
+}
+@media screen and (max-width: 700px) {
+
+    .nav-item{
+        margin-left: -12px;
+        
+    }
+
+}
+@media screen and (max-width: 567px) {
+
+    .nav-item{
+        margin-left: -15px;
+        
+    }
+    .nav-link{
+        font-size: smaller;
+    }
+}
+@media screen and (max-width: 520px) {
+
+    .nav-item{
+        margin-left: -20px;
+        
+    }
+    .nav-link{
+        font-size: small;
+    }
+}
+

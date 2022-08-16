@@ -1,0 +1,56 @@
+.container{
+    display:flex ;
+    justify-content: center;
+    margin-left:0px;
+    margin-right:0px;
+}
+.photo_words{
+    height: 200px;
+    margin: 15px auto;
+    padding: 10px;
+}
+.photo_words .photo{
+    float: left;  
+}
+.photo_words .photo img{
+    border-radius: 15px;
+    height: 130px; 
+}
+.photo_words .words{
+    float: left;
+    margin: auto;
+}
+.words td{
+    height: 40px;
+}
+
+.empty{
+    height: 15px;
+}
+.bestSeller{
+
+    display:flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 550;
+    letter-spacing: 2.5px;
+}
+
+table{
+    margin-top: 50px;
+}
+
+div.container.buttombar{
+    background: url("../../../public/buttombarimage.jpeg") no-repeat;
+    background-size: cover;
+    max-width: 10000000000px;
+    
+
+}
+@media screen and (max-width: 460px) {
+
+    div.container.buttombar{
+        height:  350px;
+        
+    }
+}
